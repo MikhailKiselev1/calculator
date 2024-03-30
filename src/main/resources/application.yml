@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/vacation_bd?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: ${USERNAME}
+    password: ${PASSWORD}
+
+server:
+  port: ${PORT:8080}
